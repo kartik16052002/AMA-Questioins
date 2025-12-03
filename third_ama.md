@@ -1,36 +1,57 @@
-
-- What is API in Js?
+- **What is API in Js?**  
   API is like a messenger that allows two softwares to talk to each other while maintaining certain rules.
+
 ---
-- What is Shallow copy ?
-  Shallow copies only copies upto level 1 and if there is nested objects/arrays it will copy there references.
+
+- **What is Shallow copy?**  
+  Shallow copy only copies level-1 values, and nested objects/arrays are copied by reference.
+
 ---
-- What is Hoisting ?
-  Moving variables and function declaration on the top of the containing scope.
+
+- **What is Hoisting?**  
+  Hoisting means moving variable and function declarations to the top of their scope.
+
 ---
-- What is this in Js?
-  "this" refers to the object in which it is written inside. this = object that is currently calling the function
+
+- **What is this in Js?**  
+  "this" refers to the object that is currently calling/executing the function.
+
 ---
-- What is Offset in SQL?
-  Offset is used with limit and tell how many rows to skip.
+
+- **What is Offset in SQL?**  
+  Offset is used with LIMIT to specify how many rows to skip.
+
 ---
-- Why do we use async keyword in js?
-  It is used to make the function asynchronous. If you want to make certain part of the code to be asych in nature then you have to write the asynch before the nearest function
+
+- **Why do we use async keyword in js?**  
+  It is used to make a function asynchronous so it can return a promise and use await inside it.
+
 ---
-- What is difference b/w synchronous and asynchronous?
-  Synchrounous means to exectue the code line by line while asynchronous code have some code that executes seperately and notifes when it is completed.
+
+- **What is difference b/w synchronous and asynchronous?**  
+  Synchronous code runs line by line, while asynchronous code runs separately and notifies when completed.
+
 ---
-- What is difference b/w callback function and high order function?
-  A callback is the function you pass into another function, while a higher-order function is the function that accepts or returns another function.
----  
-- What is DOM?
-  DOM is the browser's tree-like representation of the HTML structure of a webpage.
+
+- **What is difference b/w callback function and high order function?**  
+  A callback is a function passed to another function; a higher-order function receives or returns another function.
+
 ---
-- What's a package.json file?
-  package.json is a file that stores a Node project's metadata, scripts, and dependencies.
+
+- **What is DOM?**  
+  DOM is the browser’s tree-like representation of the HTML structure.
+
 ---
-- What is a callback function?
+
+- **What's a package.json file?**  
+  package.json stores a Node project’s metadata, scripts, and dependencies.
+
+---
+
+- **What is a callback function?**  
   A callback is a function passed as an argument to another function.
+
 ---
-- What is the difference between null and undefined?
+
+- **What is the difference between null and undefined?**  
   Null is an intentional empty value, while undefined means a variable has not been assigned.
